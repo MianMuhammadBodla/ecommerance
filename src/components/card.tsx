@@ -18,14 +18,12 @@ const Card = () => {
               image="https://i.ibb.co/0nbbWM9/image-02-1.jpg"
               CardTitle="Creative Card Component designs graphic elements"
               CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
-              Button="View Details"
-            />
+              Button="View Details" titleHref={""} btnHref={""}            />
             <SingleCard
               image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
               CardTitle="The ultimate UX and UI guide to card design"
               CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
-              Button="View Details"
-            />
+              Button="View Details" titleHref={""} btnHref={""}            />
           </div>
         </div>
       </section>
@@ -42,7 +40,8 @@ const SingleCard = ({
   CardTitle,
   titleHref,
   btnHref,
-}) => {
+}: {image:string,Button:string,CardDescription:string,CardTitle:string,titleHref:string,
+  btnHref:string,}) => {
   return (
     <>
       {/*  */}
