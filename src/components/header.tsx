@@ -1,5 +1,8 @@
 "use client"
 import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import store from "@/app/staticdata/my.jpg"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -9,19 +12,30 @@ const Navbar = () => {
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
-            <a href="/#" className="block w-full py-5">
-              <img
+            <a  className="block w-full py-5">
+              {/* <img
                 src="https://pbs.twimg.com/profile_images/1718190643816611840/iSSRthmG_400x400.jpg"
                 alt="logo"
                 width={100}
                 height={100}
                 className="dark:hidden rounded-lg"
-              />
-              <img
+              /> */}
+
+<Image
+                  src={store}
+                  alt={""}
+                  width={70}
+                  height={100}
+                 
+                  className=' border-4 rounded-md border-gray-500'
+                  
+                  ></Image>
+
+              {/* <img
                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                 alt="logo"
                 className="hidden dark:block"
-              />
+              /> */}
             </a>
           </div>
           <div className="flex w-full items-center justify-between px-4">
