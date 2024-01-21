@@ -76,7 +76,7 @@ const Navbar = () => {
 
 export default Navbar;
 
-const ListItem = ({ children, NavLink }) => {
+const ListItem = ({ children, NavLink }: {children: React.ReactNode, NavLink: string}) => {
   return (
     <>
       <li>
