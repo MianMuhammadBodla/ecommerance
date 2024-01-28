@@ -58,11 +58,16 @@ const Navbar = () => {
                   !open && "hidden"
                 } `}
               >
-                <ul className="block lg:flex">
-                  <ListItem NavLink="/#">Home</ListItem>
-                  <ListItem NavLink="/#">Payment</ListItem>
+                <ul className="block lg:flex gap-4 bold">
+                  {/* <ListItem NavLink="/#">Home</ListItem>
+                  
                   <ListItem NavLink="/aboutus">About</ListItem>
-                  <ListItem NavLink="/#">Blog</ListItem>
+                  <ListItem NavLink="/#">Blog</ListItem> */}
+                  <Link href={'/'}>Home</Link>
+                  <Link href={'/female'}>Female</Link>
+                  <Link href={'/male'}>Male</Link>
+                  <Link href={'/kid'}>Kid</Link>
+                  <Link href={'/aboutus'}>AboutUs</Link>
                 </ul>
               </nav>
             </div>
