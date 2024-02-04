@@ -1,8 +1,6 @@
 import React from "react"
 import Image from "next/image"
 
-
-
 /*
   This example requires some changes to your config:
   
@@ -25,47 +23,9 @@ const products  = [
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$34',
-      
       color: 'Black',
     },
-    {
-        id: 2,
-        name: 'Basic Tee   Premium',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black Premium.",
-        price: '$40',
-       
-        color: 'Black',
-      },
-      { 
-        id: 3,
-        name: 'Dayyan Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$24',
-     
-        color: 'Black'},
-        { 
-        id: 4,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$34',
-       
-        color: 'Black'},{ 
-          id: 5,
-          name: 'Ali Salman Premiun Tee',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-          imageAlt: "Front of men's Basic Tee in black.",
-          price: '$70',
-     
-          color: 'Black',
-        
-      },
+ 
     // More products...
   ]
   

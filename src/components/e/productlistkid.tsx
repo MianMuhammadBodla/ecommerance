@@ -1,5 +1,9 @@
 import React from "react"
 import Image from "next/image"
+import Cry from "@/assets/images/kid/crying.jpg" 
+import Cute from "@/assets/images/kid/cute.jpg"
+import Dog from "@/assets/images/kid/dog.jpg"
+import Kid from "@/assets/images/kid/kid.jpg"
 
 
 
@@ -18,68 +22,68 @@ import Image from "next/image"
   ```
 */
 const products  = [ 
-    { 
+  
+  { 
       id: 1,
-      name: 'Basic Tee',
+      name: 'Hoody',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+      
+      imageSrc: Cry,
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$34',
-      
-      color: 'Black',
+      color: 'Gray',
     },
-    {
-        id: 2,
-        name: 'Basic Tee   Premium',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black Premium.",
-        price: '$40',
-       
-        color: 'Black',
-      },
-      { 
-        id: 3,
-        name: 'Dayyan Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$24',
-     
-        color: 'Black'},
-        { 
-        id: 4,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$34',
-       
-        color: 'Black'},{ 
-          id: 5,
-          name: 'Ali Salman Premiun Tee',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-          imageAlt: "Front of men's Basic Tee in black.",
-          price: '$70',
-     
-          color: 'Black',
-        
-      },
+    { 
+      id: 2,
+      name: 'Hoody',
+      href: '#',
+      
+      imageSrc: Cute,
+      imageAlt: "Front of men's Basic Tee in black.",
+      price: '$34',
+      color: 'Cream',
+    },
+    { 
+      id: 3,
+      name: 'Shirt',
+      href: '#',
+      
+      imageSrc: Dog,
+      imageAlt: "Front of men's Basic Tee in black.",
+      price: '$34',
+      color: 'Blue',
+    },
+    { 
+      id: 4,
+      name: 'cap and sweeter',
+      href: '#',
+      
+      imageSrc: Kid,
+      imageAlt: "wool",
+      price: '$34',
+      color: 'Brown',
+    },
+    
+
+
+ 
     // More products...
+    
   ]
   
   export default function Example() {
     return (
+       <main>
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Products For Kids </h2>
   
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
               <div key={product.id} className="group relative">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <Image src={product.imageSrc} alt={product.imageAlt} width={100} height={100} className="h-full w-full object-cover object-center lg:h-full lg:w-full"></Image>
+                  
+                  <Image src={product.imageSrc} alt={product.imageAlt} width={100} height={100} className="h-full w-full object-cover object-center lg:h-full lg:w-full"></Image>
                 </div>
                 <div className="mt-4 flex justify-between">
                   <div>
@@ -98,6 +102,7 @@ const products  = [
           </div>
         </div>
       </div>
+      </main>
     )
   }
   
