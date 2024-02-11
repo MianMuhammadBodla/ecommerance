@@ -6,7 +6,7 @@ function Female() {
   return (
 <main>
   
-    <div>Female</div>
+    <div></div>
 
    <div><Productf/></div>
     

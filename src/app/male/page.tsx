@@ -5,7 +5,7 @@ import Productm from '@/components/e/productlistmale'
 const Male = () => {
   return (
     <main>
-    <div>Male</div>
+    <div></div>
     <div><Productm/></div>
 
 
