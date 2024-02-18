@@ -18,7 +18,27 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'i.imgur.com',
 
-        },
+        },{
+
+          protocol: 'https',
+          hostname: 'img.freepik.com',
+
+      },{
+       
+        protocol:'https',
+        hostname:'st2.depositphotos.com',
+
+      },{
+       
+        protocol:'https',
+        hostname:'st3.depositphotos.com',
+
+      },{
+       
+        protocol:'https',
+        hostname:'st.depositphotos.com',
+
+      },
       ],
     },
   }

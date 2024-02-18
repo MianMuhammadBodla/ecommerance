@@ -41,7 +41,7 @@ export default function Example() {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
+                            src="https://st5.depositphotos.com/3994509/67202/i/450/depositphotos_672028604-stock-photo-protrait-young-blonde-businesswoman-touching.jpg"
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />

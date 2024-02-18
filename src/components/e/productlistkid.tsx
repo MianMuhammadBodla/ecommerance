@@ -30,7 +30,7 @@ const products  = [
       
       imageSrc: Cry,
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '$34',
+      price: '$65',
       color: 'Gray',
     },
     { 
@@ -40,7 +40,7 @@ const products  = [
       
       imageSrc: Cute,
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '$34',
+      price: '$69',
       color: 'Cream',
     },
     { 
@@ -50,7 +50,7 @@ const products  = [
       
       imageSrc: Dog,
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '$34',
+      price: '$28',
       color: 'Blue',
     },
     { 
@@ -60,8 +60,24 @@ const products  = [
       
       imageSrc: Kid,
       imageAlt: "wool",
-      price: '$34',
+      price: '$74',
       color: 'Brown',
+    },  { 
+      id: 5,
+      name: 'Slave Shirt',
+      href: '#',
+      imageSrc: 'https://st3.depositphotos.com/1465849/19257/i/450/depositphotos_192575388-stock-photo-smiling-little-boy-green-clothes.jpg',
+      imageAlt: "",
+      price: '$64',
+      color: 'Green',
+    }, { 
+      id: 6,
+      name: 'Shirt',
+      href: '#',
+      imageSrc: 'https://st3.depositphotos.com/1465849/19257/i/450/depositphotos_192575614-stock-photo-smiling-little-boy-green-clothes.jpg',
+      imageAlt: "",
+      price: '$44',
+      color: 'Green',
     },
     
 

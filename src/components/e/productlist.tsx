@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import Dog from "@/assets/images/kid/dog.jpg"
 
 
 
@@ -18,53 +19,89 @@ import Image from "next/image"
   ```
 */
 const products  = [ 
+  { 
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of both man's and women's Basic Tee in black.",
+    price: '$34',
+    color: 'Black'},
     { 
-      id: 1,
-      name: 'Basic Tee',
+      id: 2,
+      name: 'Costume',
       href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+      imageSrc: 'https://st.depositphotos.com/1695244/54457/i/450/depositphotos_544579668-stock-photo-urban-fantasy-cyberpunk-sci-eurasian.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '$34',
-      
-      color: 'Black',
+      price: '$77',
+      color: 'Blue',
     },
-    {
-        id: 2,
-        name: 'Basic Tee   Premium',
+      { 
+        id: 3,
+        name: 'Shirt',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black Premium.",
-        price: '$40',
-       
+        
+        imageSrc: Dog,
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '$28',
+        color: 'Blue',
+      },{ 
+        id: 33,
+        name: 'Coat',
+        href: '#',
+        imageSrc: 'https://st.depositphotos.com/1001094/3696/i/450/depositphotos_36966483-stock-photo-elegant-young-handsome-man-studio.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '$647',
         color: 'Black',
       },
       { 
-        id: 3,
-        name: 'Dayyan Tee',
-        href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$24',
-     
-        color: 'Black'},
-        { 
         id: 4,
-        name: 'Basic Tee',
+        name: 'Coat',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://st3.depositphotos.com/12985790/16644/i/450/depositphotos_166443638-stock-photo-stylish-girl-with-cactus-in.jpg',
+        imageAlt: "",
+        price: '$549',
+        color: 'Green',
+      }, { 
+        id: 5,
+        name: 'Shirt',
+        href: '#',
+        imageSrc: 'https://st2.depositphotos.com/1049680/45909/i/450/depositphotos_459094964-stock-photo-handsome-man-beard-wearing-casual.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
+        price: '$57',
+        color: 'Green',
+      },{ 
+        id: 6,
+        name: 'Hoodies',
+        href: '#',
+        imageSrc: 'https://st2.depositphotos.com/31126772/43036/i/450/depositphotos_430360864-stock-photo-couple-standing-together-mono-colored.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '$74',
+        color: 'Cream Parrot ',
+      }, { 
+        id: 7,
+        name: 'Track Suit',
+        href: '#',
+        imageSrc: 'https://st.depositphotos.com/2390973/3504/i/450/depositphotos_35048691-stock-photo-man-in-green-clothes.jpg',
+        imageAlt: "Front of men's Basic Tee in black.",
+        price: '$765',
+        color: 'Green',
+      },{ 
+        id: 8,
+        name: 'T shirt',
+        href: '#',
+        imageSrc: 'https://st3.depositphotos.com/14803258/18678/i/450/depositphotos_186788340-stock-photo-pretty.jpg',
+        imageAlt: "",
         price: '$34',
-       
-        color: 'Black'},{ 
-          id: 5,
-          name: 'Ali Salman Premiun Tee',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-          imageAlt: "Front of men's Basic Tee in black.",
-          price: '$70',
-     
-          color: 'Black',
-        
+        color: 'Green',
+      },{ 
+        id: 9,
+        name: 'Slave Shirt',
+        href: '#',
+        imageSrc: 'https://st3.depositphotos.com/1465849/19257/i/450/depositphotos_192575388-stock-photo-smiling-little-boy-green-clothes.jpg',
+        imageAlt: "",
+        price: '$64',
+        color: 'Green',
       },
     // More products...
   ]
