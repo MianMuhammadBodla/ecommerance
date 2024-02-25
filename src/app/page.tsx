@@ -6,6 +6,7 @@ import Blogs from "@/components/blogs";
 import Contact from "@/components/contactus";
 import Product from "@/components/e/productlist"
 import Promo from "@/components/e/promosection"
+import Cart from "@/components/cart"
 
 
 
@@ -45,6 +46,7 @@ return(
 
         <div><Product/></div>
       
+      {/* <div><Cart/></div> */}
 
 
 

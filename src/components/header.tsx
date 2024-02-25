@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import store from "@/app/staticdata/my.jpg"
+import { Input } from "@/components/ui/input"
+import { MdShoppingCart } from "react-icons/md";
+
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -71,7 +75,30 @@ const Navbar = () => {
                 </ul>
               </nav>
             </div>
-            <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
+            <div className="relative w-80">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute top-0 bottom-0 w-6 h-6 my-auto text-gray-500 left-3"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+        />
+      </svg>
+      <Input type="text" placeholder="What You Looking For" className="pl-12 pr-4" />
+      
+
+    </div>
+    <div >
+    <MdShoppingCart className="h-12 w-12"/>
+
+    </div>
+            {/* <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
                 href="/#"
                 className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
@@ -85,9 +112,10 @@ const Navbar = () => {
               >
                 Sign Up
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
+        
       </div>
     </header>
   );
