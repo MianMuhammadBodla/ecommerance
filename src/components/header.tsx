@@ -8,7 +8,7 @@ import { MdShoppingCart } from "react-icons/md";
 
 
 
-const Navbar = () => {
+const Navbar = () => { 
   const [open, setOpen] = useState(false);
 
   return (
