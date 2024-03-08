@@ -7,7 +7,7 @@ import Contact from "@/components/contactus";
 import Product from "@/components/e/productlist"
 import Promo from "@/components/e/promosection"
 import Cart from "@/components/cart"
-
+import Pcardd from "./views/pcardd";
 
 
 
@@ -42,6 +42,8 @@ return(
        </div> */}
 
        <div><Promo/></div>
+
+       {/* <div><Pcardd/></div> */}
 
 
         <div><Product/></div>

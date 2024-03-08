@@ -94,8 +94,8 @@ const Navbar = () => {
       
 
     </div>
-    <div >
-    <MdShoppingCart className="h-12 w-12"/>
+    <div className="h-10 w-10 rounded-full bg-gray-200 flex justify-center items-center" >
+    <MdShoppingCart className="h-8 w-8"/>
 
     </div>
             {/* <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
@@ -105,7 +105,7 @@ const Navbar = () => {
               >
                 Sign in
               </a>
-
+ 
               <a
                 href="/#"
                 className="rounded-md bg-primary px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
