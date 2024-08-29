@@ -117,7 +117,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://www.youtube.com/@mianmuhammadbodla"
+                    href="https://www.youtube.com/@muhammadvlogzs"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
